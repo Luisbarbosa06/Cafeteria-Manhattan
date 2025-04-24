@@ -1,0 +1,1 @@
+Uma cafeteria com alma nova-iorquina e um site à altura. Este projeto traz o charme urbano da Manhattan - Coffee House para a web, com um layout moderno e uma experiência acolhedora — quase dá pra sentir o cheiro do café!
