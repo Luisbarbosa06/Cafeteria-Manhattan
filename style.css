@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    background-color: #604829;
+    height: 80px;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-left: 120px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #c4a47c;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.banner {
+    background-image: url('parallax-imagem1.png');
+    height: 110vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.texto1 {
+font-size: 32px;
+font-family: 'Oswald', sans-serif;
+font-weight: normal;
+color: #c4a47c;
+text-align: center;
+text-decoration: none;
+margin-top: 30px;
+background-color: #fff;
+}
+
+.texto2 {
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    margin: 22px 100px 0 100px;
+    height: 220px;
+    background-color: #fff;
+}
+
+.box4 {
+    background-image: url(parallax-imagem2.jpg);
+    height: 55vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.texto3 {
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #c4a47c;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: #fff;
+    }
+    
+    .texto4 {
+        color: #666;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        text-decoration: none;
+        text-align: center;
+        margin: 10px 100px 10px 100px;
+        height: 220px;
+        background-color: #fff;
+    }
+
+    .box6 {
+        background-image: url(parallax-imagem3.jpg);
+        height: 65vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;  
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        font-family: 'Fraunces', serif;
+        font-style: italic;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        margin-top: auto;
+    }
+
+    .texto5 {
+        font-size: 23px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: normal;
+        color: #c4a47c;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 30px;
+        background-color: #fff;
+        }
+        
+        .texto6 {
+            color: #666;
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            font-weight: normal;
+            text-decoration: none;
+            text-align: center;
+            margin: 10px 100px 10px 100px;
+            height: 220px;
+            background-color: #fff;
+        }
+
+
+        .box8 {
+            background-image: url(parallax-imagem4.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 50px 20px;
+            color: #fff;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            background-attachment: fixed;
+        }
+
+        .contato-endereco {
+            font-size: 24px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: normal;
+            color: #fff;
+            text-align: center;
+            background-color: #604829;
+            max-width: 500px;
+            margin: 0 auto 30px;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .contatos {
+            max-width: 500px;
+            margin: 10px auto;
+            background-color: #604829;
+            padding: 10px;
+            color: #fff;
+            font-weight: normal;
+            font-size: 16px;
+            font-family: 'Oswald', sans-serif;
+          }
+    
+
+          .horarios {
+            background-image: url(cafeteria.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            color: white;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            background-attachment: fixed;
+          }
+          
+          .horarios h2 {
+            font-size: 28px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+          }
+          
+          .horarios ul {
+            list-style: none;
+            padding: 0;
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 12px;
+            padding: 30px;
+          }
+          
+          .horarios li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+          }
+          
+          .horarios li:last-child {
+            border-bottom: none;
+          }
+          
+          .horarios h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #fff;
+          }
+          
+          .horarios p,
+          .horarios span {
+            margin: 0;
+            font-size: 18px;
+            color: #fff;
+          }
+
+          .horarios span {
+            color: #604829;
+          }
+
+          .rodape {
+            background-color: #604829;
+            text-align: center;
+            height: 100px;
+          }
+
+          .texto-rodape {
+            text-align: center;
+            font-size: 19px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: normal;
+            color: #fff;
+          }
+
+          .seta {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+          }
+          
+          .seta img {
+            width: 100%;
+            height: auto;
+          }
